@@ -9,7 +9,17 @@ const Statistics = ({ title, stats }) => {
       <ul className={s.statList}>
         {stats.map((el) => {
           return (
-            <li key={el.id} className={s.item}>
+            <li
+              key={el.id}
+              style={{
+                background:
+                  "#" +
+                  (Math.random().toString(16) + "000000")
+                    .substring(2, 8)
+                    .toUpperCase(),
+              }}
+              className={s.item}
+            >
               <span className={s.label}>{el.label}</span>
               <span className={s.percentage}>{el.percentage}%</span>
             </li>

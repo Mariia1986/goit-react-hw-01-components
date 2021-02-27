@@ -1,0 +1,46 @@
+.profile{
+    background: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.description{
+    border: 1px solid grey;
+    padding-top: 10px;
+  
+}
+
+.avatar{
+    width: 200px;
+  height: auto;
+  border-radius: 50%; 
+  border: 1px solid olive; 
+  box-shadow: 0 0 7px #666; 
+    
+}
+.stats{
+    display:flex;
+    justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ccc;
+  border: 1px solid gray;
+  }
+
+  .name {
+    font-size: 20px;
+    color:olive;
+  }
+
+  .quantity,
+  .label {
+    display: block;
+    padding: 10px;
+    
+    
+  }
+  
+ 

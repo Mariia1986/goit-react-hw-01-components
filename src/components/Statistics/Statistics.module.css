@@ -1,0 +1,25 @@
+.statistics{
+    width: 300px;
+    background-color: honeydew;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+
+.statList{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+   
+    
+}
+.label,
+.percentage{
+    display: block;
+    padding: 12px;
+    
+    width: auto;
+    font-weight: 500;
+}
