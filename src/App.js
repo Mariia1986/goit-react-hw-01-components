@@ -1,13 +1,21 @@
 
 import './App.css';
 import Profile from './components/Profile/Profile'
-import users from './db/users.json'
-
+import user from './db/users.json'
+import Statistics from './components/Statistics/Statistics'
+import statisticalData from './db/statistical-data.json'
 
 function App() {
   return (
     <div className="App">
-     <Profile users={users}/>
+     <Profile
+  name={user.name}
+  tag={user.tag}
+  location={user.location}
+  avatar={user.avatar}
+  stats={user.stats}
+/>
+<Statistics title="Upload stats" stats={statisticalData} />;
     </div>
   );
 }
