@@ -5,7 +5,8 @@ import { Table } from "react-bootstrap";
 
 const TransactionHistory = ({ items }) => {
   return (
-    <Table striped bordered hover className={s.transactionHistory}>
+    <div className={s.transactionHistory}>
+    <Table striped bordered hover size="sm" >
       <thead>
         <tr>
           <th>Type</th>
@@ -25,6 +26,7 @@ const TransactionHistory = ({ items }) => {
         })}
       </tbody>
     </Table>
+    </div>
   );
 };
 
